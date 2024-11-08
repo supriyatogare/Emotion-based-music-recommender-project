@@ -1,0 +1,79 @@
+body{
+	text-align: center;
+	background-image: url(../static/abstract-watercolor-guitar-exploding-with-colorful-motion-generated-by-ai.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+.title{
+	margin-top: 20px;
+}
+input[type="radio"]{
+	display: none;
+}
+.box{
+	/* background-color: #ddffbc; */
+	height: 300px;
+	width: 400px;
+	padding: 30px;
+	text-align:center;
+	font-size: 40px;
+	font-family: sans-serif;
+	line-height: 220px;
+	margin: 10px 10px;
+	border-radius: 10%;
+
+}
+.box:hover{
+	transition-duration: 1s;
+	color: white;
+    transform: scale(0.9);
+	
+}
+
+input[type=radio]:checked + .box1{
+	background-color: black;
+}
+
+input[type=radio]:checked + .box2{
+	background-color: #8cb7f8;
+}
+
+input[type=radio]:checked + .box3{
+	background-color: #41692a;
+}
+
+input[type=radio]:checked + .box4{
+	background-color: #f1dd67;
+}
+
+.box1{
+	background-color: rgba(20, 15, 15, 0.6);
+}
+
+.box2{
+	background-color: rgba(112, 165, 252, 0.6);
+}
+
+.box3{
+	background-color: rgba(152, 245, 91, 0.6);
+}
+
+.box4{
+	background-color: rgba(245, 230, 98, 0.6);
+}
+
+
+/* img{
+	margin-top: 50px;
+	height: 400px;
+	border : 2px solid green;
+	border-radius: 30px;
+} */
+
+button{
+	width: 300px;
+	
+}
+

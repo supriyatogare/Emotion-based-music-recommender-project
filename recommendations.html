@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Recommended Music</title>
+</head>
+<body>
+    <h1>Recommended Music</h1>
+    <table border="1">
+        <tr>
+            <th>Song Name</th>
+        </tr>
+        {% for song in recommended_music %}
+        <tr>
+            <td>{{ song }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>

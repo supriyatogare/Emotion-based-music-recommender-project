@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Text Typing Animation</title>
+<style>
+  #text {
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    border-right: 2px solid #000;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 3s steps(20, end) infinite;
+  }
+  
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 16% }
+  }
+</style>
+</head>
+<body>
+  <div id="text">This is a typing animation.</div>
+</body>
+</html>
